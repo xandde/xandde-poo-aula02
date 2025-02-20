@@ -1,4 +1,4 @@
-package Atividade_livro;
+package atividade_livro;
 
 public class Livro {
     
@@ -6,14 +6,18 @@ public class Livro {
     private String autor;
     private int pages;
     private double price;
+    private String isbn;
 
-    public Livro(String titulo, String autor, int pages, double price) {
-        this.titulo = titulo;
+// Constructor
+    public Livro(String autor, String isbn, int pages, double price, String titulo) {
         this.autor = autor;
+        this.isbn = isbn;
         this.pages = pages;
         this.price = price;
+        this.titulo = titulo;
     }
 
+// Gathers and Setters
     public String getTitulo() {
         return titulo;
     }
@@ -46,7 +50,12 @@ public class Livro {
         this.price = price;
     }
 
-    
+    public String getIsbm() {
+        return isbn;
+    }
 
+    public void setIsbm(String isbn) {
+        this.isbn = isbn;
+    }
     
 }
