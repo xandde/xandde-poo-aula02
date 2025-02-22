@@ -5,6 +5,9 @@ public class MainExemplo {
 
         Cliente cliente1 = new Cliente(40, "Marta", "02/20/05", "Cartão");
         Funcionario funcionario1 = new Funcionario(20, "Alex", "ub15983", "Medico", "1.000");
+
+        System.out.println(cliente1.toString());
+        System.out.println(funcionario1.toString());
     }
 
 }

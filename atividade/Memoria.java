@@ -17,12 +17,9 @@ public class Memoria extends Componentes {
 
     @Override
     public String toString() {
-        return "Memoria [capacidadeDeArmazenamento=" + capacidadeDeArmazenamento + "]";
+        return "Memoria [marca=" + marca + ", capacidadeDeArmazenamento=" + capacidadeDeArmazenamento + ", modelo="
+                + modelo + "]";
     }
 
-   
-
-
-
-
+    
 }
