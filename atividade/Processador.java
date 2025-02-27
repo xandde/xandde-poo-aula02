@@ -1,4 +1,4 @@
-public class Processador extends Componentes {
+public class Processador extends Produto {
 
     private String frequencia;
 
@@ -15,12 +15,7 @@ public class Processador extends Componentes {
         this.frequencia = frequencia;
     }
 
-    @Override
-    public String toString() {
-        return "Processador [marca=" + marca + ", frequencia=" + frequencia + ", modelo=" + modelo + "]";
-    }
 
-    
 
 
 }

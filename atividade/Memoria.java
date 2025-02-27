@@ -1,4 +1,4 @@
-public class Memoria extends Componentes {
+public class Memoria extends Produto {
 
     private String capacidadeDeArmazenamento;
 
@@ -17,9 +17,7 @@ public class Memoria extends Componentes {
 
     @Override
     public String toString() {
-        return "Memoria [marca=" + marca + ", capacidadeDeArmazenamento=" + capacidadeDeArmazenamento + ", modelo="
-                + modelo + "]";
+        return "Memoria [capacidadeDeArmazenamento=" + capacidadeDeArmazenamento + "]";
     }
 
-    
 }
