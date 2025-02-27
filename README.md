@@ -15,4 +15,6 @@ Veja a diferença entre ambientes.
 git checkout main
 
 - Não possui arquivos das aulas anteriores 
-git checkout herança 
+git checkout herança
+
+git push -u origin interface;
