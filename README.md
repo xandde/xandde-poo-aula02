@@ -11,10 +11,10 @@ git add .
 git commit -m "Estrutura"
 
 Veja a diferença entre ambientes.
-- Possui arquivos das aulas anteriores 
+- Possui arquivos das aulas anteriores
 git checkout main
 
-- Não possui arquivos das aulas anteriores 
+- Não possui arquivos das aulas anteriores
 git checkout herança
 
 git push -u origin interface;
