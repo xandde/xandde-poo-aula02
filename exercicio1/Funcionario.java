@@ -1,4 +1,5 @@
-public abstract class Funcionario {
+
+public abstract class Funcionario  implements SalarioFinal {
     protected String nome;
     protected String cpf;
     protected String dataDoNascimento;
@@ -43,5 +44,15 @@ public abstract class Funcionario {
 
     public void setSalarioBase(double salarioBase) {
         this.salarioBase = salarioBase;
+    }
+
+    @Override
+    public String toString() {
+        return "Funcionario{" +
+                "nome='" + nome + '\'' +
+                ", cpf='" + cpf + '\'' +
+                ", dataDoNascimento='" + dataDoNascimento + '\'' +
+                ", salarioBase=" + salarioBase +
+                '}';
     }
 }
